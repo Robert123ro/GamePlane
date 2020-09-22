@@ -1,4 +1,4 @@
-package com.ispring.gameplane.game;
+package com.gameshift.spacepatrol.game;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

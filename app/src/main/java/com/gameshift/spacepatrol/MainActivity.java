@@ -1,4 +1,4 @@
-package com.ispring.gameplane;
+package com.gameshift.spacepatrol;
 
 import android.app.Activity;
 import android.content.Intent;

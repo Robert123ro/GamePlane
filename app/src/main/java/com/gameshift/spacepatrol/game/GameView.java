@@ -1,4 +1,4 @@
-package com.ispring.gameplane.game;
+package com.gameshift.spacepatrol.game;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -13,7 +13,7 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.ispring.gameplane.R;
+import com.gameshift.spacepatrol.R;
 
 import java.util.ArrayList;
 import java.util.Iterator;

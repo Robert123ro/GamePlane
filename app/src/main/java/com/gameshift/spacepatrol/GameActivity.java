@@ -1,9 +1,9 @@
-package com.ispring.gameplane;
+package com.gameshift.spacepatrol;
 
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.ispring.gameplane.game.GameView;
+import com.gameshift.spacepatrol.game.GameView;
 
 
 public class GameActivity extends Activity {
