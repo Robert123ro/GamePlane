@@ -5,7 +5,6 @@ import android.os.Bundle;
 
 import com.gameshift.spacepatrol.game.GameView;
 
-
 public class GameActivity extends Activity {
 
     private GameView gameView;
@@ -15,18 +14,6 @@ public class GameActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
         gameView = (GameView)findViewById(R.id.gameView);
-        //0:combatAircraft
-        //1:explosion
-        //2:yellowBullet
-        //3:blueBullet
-        //4:smallEnemyPlane
-        //5:middleEnemyPlane
-        //6:bigEnemyPlane
-        //7:bombAward
-        //8:bulletAward
-        //9:pause1
-        //10:pause2
-        //11:bomb
         int[] bitmapIds = {
                 R.drawable.plane,
                 R.drawable.explosion,

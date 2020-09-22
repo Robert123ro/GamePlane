@@ -7,9 +7,6 @@ import android.graphics.Point;
 import android.graphics.Rect;
 import android.graphics.RectF;
 
-/**
- * 精灵类，所有其他用于绘制的类的基类
- */
 public class Sprite {
     private boolean visible = true;
     private float x = 0;
@@ -17,7 +14,7 @@ public class Sprite {
     private float collideOffset = 0;
     private Bitmap bitmap = null;
     private boolean destroyed = false;
-    private int frame = 0;//绘制的次数
+    private int frame = 0;
 
     public Sprite(Bitmap bitmap){
         this.bitmap = bitmap;
@@ -132,10 +129,8 @@ public class Sprite {
 
     public void onDraw(Canvas canvas, Paint paint, GameView gameView){
         if(!destroyed && this.bitmap != null && getVisibility()){
-            //将Sprite绘制到Canvas上
             Rect srcRef = getBitmapSrcRec();
             RectF dstRecF = getRectF();
-            //canvas.drawBitmap(this.bitmap, x, y, paint);
             canvas.drawBitmap(bitmap, srcRef, dstRecF, paint);
         }
     }
